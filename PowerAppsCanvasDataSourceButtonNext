@@ -1,0 +1,24 @@
+
+// Microsoft Power Platform for Power Apps Canvas
+// To make a button to NEXT Record
+
+// Inside a Power Apps Canva Screen1
+// Command for OnVisible Event:
+Set(iNumRecord,1)
+
+// put a Form1
+// Command for Form1 and Property DataSource:
+tSales
+// Command for Form1 and Property Item:
+Index(tSales,iNumRecord)
+
+// put a button Button1
+// code for Button1 and Property Text:
+GoNext
+// code for Button1 and Property OnSelect:
+Index(tSales,iNumRecord);
+Set(iNumRecord, iNumRecord+1);
+
+// Save Power Apps Canva Screen1
+// PLays Power Apps Canva Screen1
+
