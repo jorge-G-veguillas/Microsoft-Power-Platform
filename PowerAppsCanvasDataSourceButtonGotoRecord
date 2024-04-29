@@ -1,0 +1,32 @@
+
+// Microsoft Power Platform for Power Apps Canvas
+// To make a button to GOTO Record
+
+// Inside a Power Apps Canva Screen1
+// put a Form1
+// Command for Form1 and Property DataSource:
+tSales
+
+// put a label1
+// code for label1 and Property Text:
+Go To Nº Record
+
+// put a TextInput1 on right of label1
+
+// put a button Button1 down TextInput1
+// code for Button1 and Property Text:
+GOTO Record
+// code for Button1 and Property OnSelect:
+Set(iNumRecord, TextInput1.Text);
+Index(List01, iNumRecord)
+
+// put a label2
+// code for label2 and Property Text:
+Index(List01, iNumRecord).Summary
+
+// Save Power Apps Canva Screen1
+// PLays Power Apps Canva Screen1
+
+// Delete all text inside TextInput1 and write 3
+// Press on Button1 GOTO Record
+// then the label2 shows the Summary field
