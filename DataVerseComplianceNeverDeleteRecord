@@ -1,0 +1,21 @@
+// DATAVERSE for Compliance it is better do not delete Records
+
+// Inside a Power Apps Canva Screen1
+// put a DataTable1 object
+// Command for DataTable1 object and Property DataSource:
+tSales
+// Command for DataTable1 object and Property VIEW:
+tSales Active
+
+// put a button Button1
+// code for Button1 and Property Text:
+Disable Record
+// code for Button1 and Property OnSelect:
+Patch(tSales, DataTable1.Selected,{Staus:'Status (tSales)'.Inactive})
+
+// Save Power Apps Canva Screen1
+// PLays Power Apps Canva Screen1
+
+// Select a record inside the Datatable1 object
+// Press on Button1 Disable Record
+// then the Datatable1 object does not show the record
