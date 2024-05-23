@@ -1,0 +1,12 @@
+GoTo AZURE Portal
+
+GoTo https://web.purview.azure.com/
+
+Select your Tenant for Microsoft Purview
+
+Select your Account for Microsoft Purview
+
+Click on Continue Button
+
+Goto to Data Map Icon
+
