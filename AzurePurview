@@ -1,12 +1,23 @@
-GoTo AZURE Portal
+a) GoTo AZURE Portal
 
-GoTo https://web.purview.azure.com/
+      GoTo https://web.purview.azure.com/
+      
+      Select your Tenant for Microsoft Purview
+      
+      Select your Account for Microsoft Purview
+      
+      Click on Continue Button
 
-Select your Tenant for Microsoft Purview
+b) Inside the Microsoft Purview service Goto to Data Map Icon
 
-Select your Account for Microsoft Purview
+      Goto Collections in the left menu panel and +Add a Collection
+      
+      Assign the "Collection Admin" Role and "Data Source Admin" Role
+      
+      Next Goto Sources in the left menu panel and +Add a Register Source: "DataVerse (Preview)" and you write the values for NameSource, and Environment URL, etc...
 
-Click on Continue Button
+c) Next goto Sources in the left menu panel and you make a new SCAN
+   https://learn.microsoft.com/es-es/purview/register-scan-dataverse?tabs=MI#create-the-scan
 
-Goto to Data Map Icon
+Remember at May 2024 the service is in Preview Status
 
