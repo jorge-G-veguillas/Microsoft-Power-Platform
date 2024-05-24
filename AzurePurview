@@ -21,5 +21,5 @@ b) Inside the Microsoft Purview service Goto to Data Map Icon
 c) Next goto Sources in the left menu panel and you make a new SCAN
    https://learn.microsoft.com/es-es/purview/register-scan-dataverse?tabs=MI#create-the-scan
 
-Remember at May 2024 the service is in Preview Status
+Remember at May 2024 the service of AZURE Purview is in Preview Status
 
