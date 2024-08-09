@@ -11,7 +11,7 @@ tSales Active
 // code for Button1 and Property Text:
 Disable Record
 // code for Button1 and Property OnSelect:
-Patch(tSales, DataTable1.Selected,{Staus:'Status (tSales)'.Inactive})
+Patch(tSales, DataTable1.Selected,{Status:'Status (tSales)'.Inactive})
 
 // Save Power Apps Canva Screen1
 // PLays Power Apps Canva Screen1
