@@ -1,0 +1,21 @@
+A Power Fx Collection for your Power Platform Apps:
+
+ClearCollect(Departments,
+[{Department:"Finance"},
+{Department:"Public Relations"},
+{Department:"Marketing"},
+{Department:"Sales"},
+{Department:"Customer Service"},
+{Department:"Operations"},
+{Department:"Information Technology"},
+{Department:"Research & Development"},
+{Department:"Human Resources"},
+{Department:"Purchasing"},
+{Department:"Product Management"},
+{Department:"Quality Assurance"},
+{Department:"Legal"},
+{Department:"Administration"},
+{Department:"Corporate Development"}]
+)
+
+So you can add this Collection to an Combo Box, Gallety, etc... 
