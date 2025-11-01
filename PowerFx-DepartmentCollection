@@ -1,4 +1,4 @@
-A Power Fx Collection for your Power Platform Apps:
+A Power Fx Collection of Deparments for your Power Platform Apps:
 
 ClearCollect(Departments,
 [{Department:"Finance"},
